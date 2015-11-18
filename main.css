@@ -1,23 +1,36 @@
-@import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,700);
+      @import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,700);
 
 
-.content {
-  display: block;
-  margin: 0 auto;
-}
 
-.left-nav{
-  width:40%;
-  position: fixed;
-  float: left;
-  background-color: #333333;
-}
+      body{
+          margin: 0 auto;
+      }
 
-.right-nav{
-  width:60%;
-  overflow-y: scroll;
-  float: right;
-  margin-bottom: 12px;
-  background-color: #666666;
-  position:relative;
-}
+      .content {
+        display: block;
+        width:100%;
+
+      }
+
+      .left-nav{
+        width:30%;
+        position: fixed;
+        float: left;
+        background-color: #333333;
+
+      }
+
+      .right-nav{
+        width:70%;
+        float: right;
+        background-color: #666666;
+        position:relative;
+      }
+
+
+      h1 {
+        font-family: ‘Metrophobic’, Arial, serif; font-weight: 300;
+        padding-top: 20px;
+        color: #ffffff;
+
+      }
