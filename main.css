@@ -1,10 +1,49 @@
       @import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,700);
 
+/* Responsive menu*/
+      @font-face {
+	       font-family: 'feather';
+	        font-weight: normal;
+	         font-style: normal;
+	          src: url('../fonts/feather/feather.eot?1gafuo');
+	           src: url('../fonts/feather/feather.eot?1gafuo#iefix') format('embedded-opentype'), url('../fonts/feather/feather.woff2?1gafuo') format('woff2'), url('../fonts/feather/feather.ttf?1gafuo') format('truetype'), url('../fonts/feather/feather.woff?1gafuo') format('woff'), url('../fonts/feather/feather.svg?1gafuo#feather') format('svg');
+           }
 
-
-      body{
-          margin: 0 auto;
+      .icon {
+      	font-family: 'feather';
+      	font-weight: normal;
+      	font-style: normal;
+      	font-variant: normal;
+      	line-height: 1;
+      	text-transform: none;
+/* Better Font Rendering =========== */
+      	-webkit-font-smoothing: antialiased;
+      	-moz-osx-font-smoothing: grayscale;
+      	speak: none;
       }
+
+        .icon--arrow-left:before {
+        	content: '\e901';
+        }
+
+        .icon--menu:before {
+        	content: '\e903';
+        }
+
+        .icon--cross:before {
+        	content: '\e117';
+        }
+
+
+/* Main Content*/
+
+        body{
+            margin: 0 auto;
+            font-family: ‘Metrophobic’, Arial, serif;
+        }
+
+/* Left nav content*/
+
 
       .content {
         display: block;
@@ -13,12 +52,26 @@
       }
 
       .left-nav{
-        width:30%;
         position: fixed;
-        float: left;
-        background-color: #333333;
+        background-color: #252E38;
+        height: calc(100vh);
+        width: 30%;
 
       }
+
+      .intro {
+        font-weight: 200;
+        line-height: 1.5em;
+        letter-spacing: 0.5em;
+        color: #ffffff;
+        font-size: 1em;
+        margin: 30% 10% 10% 10%;
+        text-align: left;
+
+
+
+      }
+      /* Right content*/
 
       .right-nav{
         width:70%;
@@ -27,9 +80,15 @@
         position:relative;
       }
 
+      .project-wrap{
+        margin-top: 10%;
+        margin-left: 10%;
+
+      }
 
       h1 {
-        font-family: ‘Metrophobic’, Arial, serif; font-weight: 300;
+
+        font-weight: 300;
         padding-top: 20px;
         color: #ffffff;
 
