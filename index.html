@@ -5,15 +5,22 @@
     <link rel="stylesheet" href="main.css" media="screen" title="no title" charset="utf-8">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="site.js"></script>
+    <script src="classie.js"></script>
     <title>Tring out the left layout</title>
   </head>
 
 
   <body>
     <div class="content">
+      <!-- Menu toggle for mobile version -->
 
+      <button class="action action--open" aria-label="Open Menu"><span class="icon icon--menu"></span></button>
+
+      <!-- Left Navigation -->
 
     <div class="left-nav">
+
+      <button class="action action--close" aria-label="Close Menu"><span class="icon icon--cross"></span></button>
       <div class="intro">
       <p>
         Lorem ipsum dolor sit amet, munere intellegebat an has.
@@ -53,5 +60,41 @@
 
     </div>
       </div>
+
+
+
+      <script>
+
+          var openMenuCtrl = document.querySelector('.action--open'),
+          closeMenuCtrl = document.querySelector('.action--close');
+
+        openMenuCtrl.addEventListener('click', openMenu);
+        closeMenuCtrl.addEventListener('click', closeMenu);
+
+        function openMenu() {
+          classie.add(menuEl, 'menu--open');
+        }
+
+        function closeMenu() {
+          classie.remove(menuEl, 'menu--open');
+
+
+          var gridWrapper = document.querySelector('.right-nav');
+
+	function loadDummyData(ev, itemName) {
+		ev.preventDefault();
+
+		closeMenu();
+		gridWrapper.innerHTML = '';
+		classie.add(gridWrapper, 'content--loading');
+		setTimeout(function() {
+			classie.remove(gridWrapper, 'content--loading');
+			gridWrapper.innerHTML = '<ul class="products">' + dummyData[itemName] + '<ul>';
+		}, 700);
+	}
+})();
+        }
+
+      </script>
   </body>
 </html>
