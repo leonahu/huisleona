@@ -3921,7 +3921,7 @@ header.main nav ul li a {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   -webkit-backface-visibility: hidden;
-  font-family: "";
+  font-family: "justus-pro";
   cursor: pointer;
 }
 /* line 180, ../_sass/_main.scss */
