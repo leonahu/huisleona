@@ -4043,9 +4043,9 @@ section.content article p:first-of-type {
 .home p a {
   font-family: "justus-pro";
   font-size: 36px;
-  line-height: 60px;
+  line-height: 46px;
   margin-bottom: 60px;
-  letter-spacing: 6px;
+  letter-spacing: 3px;
   color: #BBBBBB;
   -webkit-backface-visibility: hidden;
   -webkit-transition: color 0.3s ease-in-out;
