@@ -17,25 +17,8 @@ html {
   box-sizing: inherit;
 }
 
-@font-face {
-  font-family: 'Colfax Web Light';
-  src: url("../assets/fonts/ColfaxWeb_EOT/ColfaxWebLight.eot");
-  src: url("../assets/fonts/ColfaxWeb_EOT/ColfaxWebLight-.eot#iefix") format("embedded-opentype"), url("../assets/fonts/ColfaxWeb_WOFF/ColfaxWebLight.woff") format("woff");
-}
-@font-face {
-  font-family: 'Colfax Web Regular';
-  src: url("../assets/fonts/ColfaxWeb_EOT/ColfaxWebRegular.eot");
-  src: url("../assets/fonts/ColfaxWeb_EOT/ColfaxWebRegular-.eot#iefix") format("embedded-opentype"), url("../assets/fonts/ColfaxWeb_WOFF/ColfaxWebRegular.woff") format("woff");
-}
-@font-face {
-  font-family: 'Colfax Web Medium';
-  src: url("../assets/fonts/ColfaxWeb_EOT/ColfaxWebMedium.eot");
-  src: url("../assets/fonts/ColfaxWeb_EOT/ColfaxWebMedium-.eot#iefix") format("embedded-opentype"), url("../assets/fonts/ColfaxWeb_WOFF/ColfaxWebMedium.woff") format("woff");
-}
-@font-face {
-  font-family: 'Colfax Web Bold';
-  src: url("../assets/fonts/ColfaxWeb_EOT/ColfaxWebBold.eot");
-  src: url("../assets/fonts/ColfaxWeb_EOT/ColfaxWebBold-.eot#iefix") format("embedded-opentype"), url("../assets/fonts/ColfaxWeb_WOFF/ColfaxWebBold.woff") format("woff");
+body{
+  font-family: "justus-pro",monospace;
 }
 /* line 1, ../_sass/_reset.scss */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
