@@ -4044,9 +4044,9 @@ section.content article p:first-of-type {
   font-family: "justus-pro";
   font-size: 36px;
   line-height: 46px;
-  margin-bottom: 60px;
+  margin-bottom: 46px;
   letter-spacing: 3px;
-  color: #BBBBBB;
+  color: #fff;
   -webkit-backface-visibility: hidden;
   -webkit-transition: color 0.3s ease-in-out;
   -moz-transition: color 0.3s ease-in-out;
@@ -4073,7 +4073,7 @@ section.content article p:first-of-type {
 }
 /* line 52, ../_sass/_home.scss */
 .home p a:hover {
-  color: #fff;
+  color: #EEEEEE;
 }
 /* line 56, ../_sass/_home.scss */
 .home #baselines {
