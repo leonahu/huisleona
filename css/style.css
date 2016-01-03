@@ -4472,6 +4472,7 @@ body.powwow div.online, body.powwow aside {
   font-size: 14px;
   line-height: 24px;
   font-family: 'justus-pro';
+  letter-spacing: 8px;
   padding: 100px 0px 0px 0px;
 }
 /* line 23, ../_sass/_powwow.scss */
