@@ -4016,6 +4016,7 @@ section.content article p:first-of-type {
   font-size: 72px;
   font-weight: normal;
   font-family: "justus-pro";
+  font-weight: 200;
 }
 @media screen and (max-width: 800px) {
   /* line 11, ../_sass/_home.scss */
@@ -4041,11 +4042,11 @@ section.content article p:first-of-type {
 /* line 32, ../_sass/_home.scss */
 .home p a {
   font-family: "justus-pro";
-  font-size: 48px;
+  font-size: 36px;
   line-height: 60px;
   margin-bottom: 60px;
-  letter-spacing: -1px;
-  color: #ffffff;
+  letter-spacing: 6px;
+  color: #BBBBBB;
   -webkit-backface-visibility: hidden;
   -webkit-transition: color 0.3s ease-in-out;
   -moz-transition: color 0.3s ease-in-out;
@@ -4072,7 +4073,7 @@ section.content article p:first-of-type {
 }
 /* line 52, ../_sass/_home.scss */
 .home p a:hover {
-  color: white;
+  color: #fff;
 }
 /* line 56, ../_sass/_home.scss */
 .home #baselines {
