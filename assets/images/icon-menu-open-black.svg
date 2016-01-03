@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="23px" height="15px"
+	 viewBox="0 0 23 15" enable-background="new 0 0 23 15" xml:space="preserve">
+<title>hamburger icon</title>
+<desc>Created with Sketch.</desc>
+<g id="Mobile-Menu" sketch:type="MSPage">
+	<g id="hamburger-icon" transform="translate(-258.000000, -115.000000)" sketch:type="MSArtboardGroup">
+		<g transform="translate(260.000000, 116.000000)" sketch:type="MSLayerGroup">
+			<path id="Line" sketch:type="MSShapeGroup" fill="none" stroke="#000000" stroke-width="3" stroke-linecap="square" d="
+				M0.264,0.848h18.473"/>
+			<path id="Line_1_" sketch:type="MSShapeGroup" fill="none" stroke="#000000" stroke-width="3" stroke-linecap="square" d="
+				M0.264,6.5h18.473"/>
+			<path id="Line-2" sketch:type="MSShapeGroup" fill="none" stroke="#000000" stroke-width="3" stroke-linecap="square" d="
+				M0.264,12.152h18.473"/>
+		</g>
+	</g>
+</g>
+</svg>
