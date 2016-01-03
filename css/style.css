@@ -3684,7 +3684,7 @@ body.bgproject header.main nav ul li a:hover {
 }
 /* line 15, ../_sass/_main.scss */
 body.bgproject header.main a.logo {
-  background: url("../assets/images/logo-shw-black.svg") no-repeat;
+  background: url("assets/images/logo-shw-black.svg") no-repeat;
 }
 /* line 18, ../_sass/_main.scss */
 body.bgproject header.main a.mobile-menu {
@@ -3826,7 +3826,7 @@ body header.main section {
 body header.main a.logo {
   width: 75px;
   height: 12px;
-  background: url("../assets/images/logo-shw.svg") no-repeat;
+  background: url("assets/images/logo-shw.svg") no-repeat;
   text-indent: -9999px;
   display: block;
 }
@@ -3851,7 +3851,7 @@ body header.main a.mobile-menu {
 }
 /* line 128, ../_sass/_main.scss */
 body header.main a.mobile-menu.close {
-  background: url("../assets/images/icon-menu-close.svg") top right no-repeat;
+  background: url("assets/images/icon-menu-close.svg") top right no-repeat;
 }
 
 /* line 134, ../_sass/_main.scss */
