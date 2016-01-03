@@ -3688,11 +3688,11 @@ body.bgproject header.main a.logo {
 }
 /* line 18, ../_sass/_main.scss */
 body.bgproject header.main a.mobile-menu {
-  background: url("../assets/images/icon-menu-open-black.svg") top right no-repeat;
+  background: url("assets/images/icon-menu-open.svg") top right no-repeat;
 }
 /* line 20, ../_sass/_main.scss */
 body.bgproject header.main a.mobile-menu.close {
-  background: url("../assets/images/icon-menu-close_black.svg") top right no-repeat;
+  background: url("assets/images/icon-menu-close.svg") top right no-repeat;
 }
 /* line 24, ../_sass/_main.scss */
 body.bgproject body header.main span.bar {
