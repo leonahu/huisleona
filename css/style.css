@@ -2898,7 +2898,7 @@ Copyright (c) 2014 Daniel Eden
 h1, h2, h3, h4, h5 {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "Colfax Web Light";
+  font-family: "justus-pro";
 }
 /* line 49, ../_sass/_display.scss */
 h1 a, h2 a, h3 a, h4 a, h5 a {
@@ -2913,7 +2913,7 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
 h1 {
   font-weight: 600;
   font-size: 42px;
-  font-family: "Colfax Web Light";
+  font-family: "justus-pro";
   letter-spacing: -3px;
 }
 /* line 61, ../_sass/_display.scss */
@@ -2950,14 +2950,14 @@ h4 {
 h5 {
   font-size: 18px;
   line-height: 18px;
-  font-family: "Colfax Web Light";
+  font-family: "justus-pro";
 }
 
 /* line 87, ../_sass/_display.scss */
 h6 {
   font-size: 14px;
   line-height: 24px;
-  font-family: "Colfax Web Light";
+  font-family: "justus-pro";
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: normal;
@@ -2969,7 +2969,7 @@ p, li, figcaption {
   line-height: 30px;
   color: white;
   margin-bottom: 30px;
-  font-family: "Colfax Web Light";
+  font-family: "justus-pro";
   -webkit-font-smoothing: antialiased;
 }
 /* line 102, ../_sass/_display.scss */
@@ -3648,7 +3648,7 @@ dl.grid dd img {
 body {
   background-color:#222222;
   color: #fff;
-  font-family: "Colfax Web Light";
+  font-family: "justus-pro";
 }
 
 body.home {
@@ -3915,7 +3915,7 @@ header.main nav ul li a {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   -webkit-backface-visibility: hidden;
-  font-family: "Colfax Web Regular";
+  font-family: "";
   cursor: pointer;
 }
 /* line 180, ../_sass/_main.scss */
@@ -3938,7 +3938,7 @@ header.main nav ul li a:hover, header.main nav ul li a.here {
 section.header p {
   font-size: 14px;
   line-height: 24px;
-  font-family: "Colfax Web Light";
+  font-family: "justus-pro";
 }
 /* line 200, ../_sass/_main.scss */
 section.header p:first-of-type {
@@ -4012,7 +4012,7 @@ section.content article p:first-of-type {
   line-height: 72px;
   font-size: 72px;
   font-weight: normal;
-  font-family: "Colfax Web Light";
+  font-family: "justus-pro";
 }
 @media screen and (max-width: 800px) {
   /* line 11, ../_sass/_home.scss */
@@ -4037,7 +4037,7 @@ section.content article p:first-of-type {
 }
 /* line 32, ../_sass/_home.scss */
 .home p a {
-  font-family: "Colfax Web Light";
+  font-family: "justus-pro";
   font-size: 48px;
   line-height: 60px;
   margin-bottom: 60px;
@@ -4061,7 +4061,7 @@ section.content article p:first-of-type {
 @media screen and (max-width: 620px) {
   /* line 32, ../_sass/_home.scss */
   .home p a {
-    font-family: "Colfax Web Regular";
+    font-family: "justus-pro";
     font-size: 24px;
     line-height: 37px;
     margin-bottom: 37px;
@@ -4471,7 +4471,7 @@ body.powwow #map {
 body.powwow div.online, body.powwow aside {
   font-size: 14px;
   line-height: 24px;
-  font-family: 'Colfax Web Regular';
+  font-family: 'justus-pro';
   padding: 100px 0px 0px 0px;
 }
 /* line 23, ../_sass/_powwow.scss */
