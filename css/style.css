@@ -3913,7 +3913,7 @@ header.main nav ul li {
 /* line 172, ../_sass/_main.scss */
 header.main nav ul li a {
   color: white;
-  font-size: 14px;
+  font-size: 18px;
   padding: 25px 10px;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -3922,6 +3922,8 @@ header.main nav ul li a {
   transition: all 0.3s ease-in-out;
   -webkit-backface-visibility: hidden;
   font-family: "justus-pro";
+  font-weight: 400;
+  letter-spacing: 4px
   cursor: pointer;
 }
 /* line 180, ../_sass/_main.scss */
