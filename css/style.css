@@ -3916,7 +3916,7 @@ header.main nav ul li {
 /* line 172, ../_sass/_main.scss */
 header.main nav ul li a {
   color: white;
-  font-size: 18px;
+  font-size: 16px;
   padding: 25px 10px;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -4460,50 +4460,5 @@ body.ponderings section.content article img {
   left: -25px;
 }
 
-/*--- Powwow ---*/
-/* line 2, ../_sass/_powwow.scss */
-body.powwow {
-  background: black;
-}
-/* line 4, ../_sass/_powwow.scss */
-body.powwow #map {
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: -1;
-  background: black;
-  -webkit-animation-duration: 6s;
-  animation-duration: 6s;
-}
-/* line 17, ../_sass/_powwow.scss */
-body.powwow div.online, body.powwow aside {
-  font-size: 14px;
-  line-height: 24px;
-  font-family:"justus-pro",sans-serif;
-  font-style: normal;
-  font-weight: 200;
-  letter-spacing: 8px;
-  padding: 100px 0px 0px 0px;
-}
-/* line 23, ../_sass/_powwow.scss */
-body.powwow ::selection {
-  background: transparent;
-}
-/* line 26, ../_sass/_powwow.scss */
-body.powwow ::-moz-selection {
-  background: transparent;
-}
-/* line 29, ../_sass/_powwow.scss */
-body.powwow p a, body.powwow .online a {
-  color: white;
-}
-/* line 31, ../_sass/_powwow.scss */
-body.powwow p a:hover, body.powwow .online a:hover {
-  color: #50E3C2;
-}
 
 /* Localized */
