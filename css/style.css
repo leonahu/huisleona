@@ -3863,6 +3863,8 @@ body.bgproject header.main span.bar {
 /*--- Navigation ---*/
 /* line 139, ../_sass/_main.scss */
 header.main nav {
+  font-family: "sofia-pro";
+  letter-spacing: 3px;
   position: relative;
   z-index: 10;
   background-color: transparent;
