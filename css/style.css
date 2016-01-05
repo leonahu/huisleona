@@ -3924,8 +3924,8 @@ header.main nav ul li a {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   -webkit-backface-visibility: hidden;
-  font-family: "justus-pro";
-  font-weight: 400;
+    font-family: "sofia-pro";
+  font-weight: 300;
   letter-spacing: 4px
   cursor: pointer;
 }
@@ -3947,7 +3947,7 @@ header.main nav ul li a:hover, header.main nav ul li a.here {
 /*--- Section Header ---*/
 /* line 196, ../_sass/_main.scss */
 section.header p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   font-family: "justus-pro";
 }
