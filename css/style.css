@@ -3730,7 +3730,7 @@ body #baselines {
 /* line 48, ../_sass/_main.scss */
 body header.main {
   margin: 0 auto 120px auto;
-  padding-top: 90px;
+
   z-index: 1000;
   position: relative;
   background-image: transparent;
@@ -4461,6 +4461,10 @@ body.ponderings section.content article img {
 }
 
 
+#list {
+  font-size: 1em;
+  line-height: 0.8em;
+}
 
 
 /* Localized */
